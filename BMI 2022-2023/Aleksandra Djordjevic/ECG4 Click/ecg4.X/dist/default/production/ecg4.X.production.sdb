@@ -1,0 +1,654 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F87K22 ]
+[d frameptr 4065 ]
+"1007 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\doprnt.c
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+"1520
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\nf_fputs.c
+[v _fputs fputs `(i  1 e 2 0 ]
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"50 C:\Users\Sanja\Desktop\Aleksandra Djordjevic DIPLOMSKI\ECG4 Click\ecg4.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"66 C:\Users\Sanja\Desktop\Aleksandra Djordjevic DIPLOMSKI\ECG4 Click\ecg4.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+"113
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+"132
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+"146
+[v _putch putch `(v  1 e 1 0 ]
+"153
+[v _EUSART1_DefaultFramingErrorHandler EUSART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"155
+[v _EUSART1_DefaultOverrunErrorHandler EUSART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"163
+[v _EUSART1_DefaultErrorHandler EUSART1_DefaultErrorHandler `(v  1 e 1 0 ]
+"166
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+"170
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"174
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+"88 C:\Users\Sanja\Desktop\Aleksandra Djordjevic DIPLOMSKI\ECG4 Click\ecg4.X\mcc_generated_files/eusart2.c
+[v _EUSART2_Initialize EUSART2_Initialize `(v  1 e 1 0 ]
+"151
+[v _EUSART2_Read EUSART2_Read `(uc  1 e 1 0 ]
+"197
+[v _EUSART2_Transmit_ISR EUSART2_Transmit_ISR `(v  1 e 1 0 ]
+"216
+[v _EUSART2_Receive_ISR EUSART2_Receive_ISR `(v  1 e 1 0 ]
+"240
+[v _EUSART2_RxDataHandler EUSART2_RxDataHandler `(v  1 e 1 0 ]
+"250
+[v _EUSART2_DefaultFramingErrorHandler EUSART2_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"252
+[v _EUSART2_DefaultOverrunErrorHandler EUSART2_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"260
+[v _EUSART2_DefaultErrorHandler EUSART2_DefaultErrorHandler `(v  1 e 1 0 ]
+"264
+[v _EUSART2_SetFramingErrorHandler EUSART2_SetFramingErrorHandler `(v  1 e 1 0 ]
+"268
+[v _EUSART2_SetOverrunErrorHandler EUSART2_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"272
+[v _EUSART2_SetErrorHandler EUSART2_SetErrorHandler `(v  1 e 1 0 ]
+"276
+[v _EUSART2_SetTxInterruptHandler EUSART2_SetTxInterruptHandler `(v  1 e 1 0 ]
+"280
+[v _EUSART2_SetRxInterruptHandler EUSART2_SetRxInterruptHandler `(v  1 e 1 0 ]
+"52 C:\Users\Sanja\Desktop\Aleksandra Djordjevic DIPLOMSKI\ECG4 Click\ecg4.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"58
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+"50 C:\Users\Sanja\Desktop\Aleksandra Djordjevic DIPLOMSKI\ECG4 Click\ecg4.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"60
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\Sanja\Desktop\Aleksandra Djordjevic DIPLOMSKI\ECG4 Click\ecg4.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"616 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18F-K_DFP/1.5.114/xc8\pic\include\proc\pic18f87k22.h
+[v _TXREG2 TXREG2 `VEuc  1 e 1 @3868 ]
+"636
+[v _RCREG2 RCREG2 `VEuc  1 e 1 @3869 ]
+"656
+[v _SPBRG2 SPBRG2 `VEuc  1 e 1 @3870 ]
+"676
+[v _SPBRGH2 SPBRGH2 `VEuc  1 e 1 @3871 ]
+"696
+[v _BAUDCON2 BAUDCON2 `VEuc  1 e 1 @3872 ]
+"819
+[v _TXSTA2 TXSTA2 `VEuc  1 e 1 @3873 ]
+[s S137 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"851
+[s S146 . 1 `uc 1 TX9D2 1 0 :1:0 
+`uc 1 TRMT2 1 0 :1:1 
+`uc 1 BRGH2 1 0 :1:2 
+`uc 1 SENDB2 1 0 :1:3 
+`uc 1 SYNC2 1 0 :1:4 
+`uc 1 TXEN2 1 0 :1:5 
+`uc 1 TX92 1 0 :1:6 
+`uc 1 CSRC2 1 0 :1:7 
+]
+[s S155 . 1 `uc 1 TXD82 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 TX8_92 1 0 :1:6 
+]
+[u S159 . 1 `S137 1 . 1 0 `S146 1 . 1 0 `S155 1 . 1 0 ]
+[v _TXSTA2bits TXSTA2bits `VES159  1 e 1 @3873 ]
+"946
+[v _RCSTA2 RCSTA2 `VEuc  1 e 1 @3874 ]
+[s S187 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"982
+[s S196 . 1 `uc 1 RX9D2 1 0 :1:0 
+`uc 1 OERR2 1 0 :1:1 
+`uc 1 FERR2 1 0 :1:2 
+`uc 1 ADDEN2 1 0 :1:3 
+`uc 1 CREN2 1 0 :1:4 
+`uc 1 SREN2 1 0 :1:5 
+`uc 1 RX92 1 0 :1:6 
+`uc 1 SPEN2 1 0 :1:7 
+]
+[s S205 . 1 `uc 1 RCD82 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 RC8_92 1 0 :1:6 
+]
+[s S209 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC92 1 0 :1:6 
+]
+[u S212 . 1 `S187 1 . 1 0 `S196 1 . 1 0 `S205 1 . 1 0 `S209 1 . 1 0 ]
+[v _RCSTA2bits RCSTA2bits `VES212  1 e 1 @3874 ]
+"1082
+[v _ANCON2 ANCON2 `VEuc  1 e 1 @3875 ]
+"1194
+[v _ANCON1 ANCON1 `VEuc  1 e 1 @3876 ]
+"1306
+[v _ANCON0 ANCON0 `VEuc  1 e 1 @3877 ]
+"1613
+[v _REFOCON REFOCON `VEuc  1 e 1 @3882 ]
+"5313
+[v _OSCCON2 OSCCON2 `VEuc  1 e 1 @3940 ]
+"5353
+[v _BAUDCON1 BAUDCON1 `VEuc  1 e 1 @3941 ]
+"9571
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"9683
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"9795
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"9907
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"10019
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+[s S917 . 1 `uc 1 LATE0 1 0 :1:0 
+`uc 1 LATE1 1 0 :1:1 
+`uc 1 LATE2 1 0 :1:2 
+`uc 1 LATE3 1 0 :1:3 
+`uc 1 LATE4 1 0 :1:4 
+`uc 1 LATE5 1 0 :1:5 
+`uc 1 LATE6 1 0 :1:6 
+`uc 1 LATE7 1 0 :1:7 
+]
+"10046
+[s S926 . 1 `uc 1 LE0 1 0 :1:0 
+`uc 1 LE1 1 0 :1:1 
+`uc 1 LE2 1 0 :1:2 
+`uc 1 LE3 1 0 :1:3 
+`uc 1 LE4 1 0 :1:4 
+`uc 1 LE5 1 0 :1:5 
+`uc 1 LE6 1 0 :1:6 
+`uc 1 LE7 1 0 :1:7 
+]
+[u S935 . 1 `S917 1 . 1 0 `S926 1 . 1 0 ]
+[v _LATEbits LATEbits `VES935  1 e 1 @3981 ]
+"10131
+[v _LATF LATF `VEuc  1 e 1 @3982 ]
+"10233
+[v _LATG LATG `VEuc  1 e 1 @3983 ]
+"10309
+[v _LATH LATH `VEuc  1 e 1 @3984 ]
+"10533
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"10595
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"10657
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"10719
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"10781
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"10843
+[v _TRISF TRISF `VEuc  1 e 1 @3991 ]
+"10900
+[v _TRISG TRISG `VEuc  1 e 1 @3992 ]
+"10944
+[v _TRISH TRISH `VEuc  1 e 1 @3993 ]
+"11068
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
+[s S381 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 TMR1GIF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"11310
+[s S390 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+]
+[u S395 . 1 `S381 1 . 1 0 `S390 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES395  1 e 1 @3998 ]
+[s S37 . 1 `uc 1 RTCCIE 1 0 :1:0 
+`uc 1 CCP1IE 1 0 :1:1 
+`uc 1 CCP2IE 1 0 :1:2 
+`uc 1 CTMUIE 1 0 :1:3 
+`uc 1 TX2IE 1 0 :1:4 
+`uc 1 RC2IE 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 TMR5GIE 1 0 :1:7 
+]
+"11699
+[s S46 . 1 `uc 1 RXB0IE 1 0 :1:0 
+`uc 1 RXB1IE 1 0 :1:1 
+`uc 1 TXB0IE 1 0 :1:2 
+`uc 1 TXB1IE 1 0 :1:3 
+`uc 1 TXB2IE 1 0 :1:4 
+]
+[s S52 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIE 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIE 1 0 :1:4 
+]
+[u S57 . 1 `S37 1 . 1 0 `S46 1 . 1 0 `S52 1 . 1 0 ]
+[v _PIE3bits PIE3bits `VES57  1 e 1 @4003 ]
+[s S848 . 1 `uc 1 RTCCIF 1 0 :1:0 
+`uc 1 CCP1IF 1 0 :1:1 
+`uc 1 CCP2IF 1 0 :1:2 
+`uc 1 CTMUIF 1 0 :1:3 
+`uc 1 TX2IF 1 0 :1:4 
+`uc 1 RC2IF 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 TMR5GIF 1 0 :1:7 
+]
+"11797
+[s S857 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RXBNIF 1 0 :1:1 
+`uc 1 . 1 0 :2:2 
+`uc 1 TXBNIF 1 0 :1:4 
+]
+[u S862 . 1 `S848 1 . 1 0 `S857 1 . 1 0 ]
+[v _PIR3bits PIR3bits `VES862  1 e 1 @4004 ]
+"12211
+[v _RCSTA1 RCSTA1 `VEuc  1 e 1 @4011 ]
+"12266
+[s S485 . 1 `uc 1 RCD8 1 0 :1:0 
+`uc 1 . 1 0 :2:1 
+`uc 1 ADEN 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S491 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 NOT_RC8 1 0 :1:6 
+]
+[s S494 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nRC8 1 0 :1:6 
+]
+[s S497 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S500 . 1 `uc 1 RX9D1 1 0 :1:0 
+`uc 1 OERR1 1 0 :1:1 
+`uc 1 FERR1 1 0 :1:2 
+`uc 1 ADDEN1 1 0 :1:3 
+`uc 1 CREN1 1 0 :1:4 
+`uc 1 SREN1 1 0 :1:5 
+`uc 1 RX91 1 0 :1:6 
+`uc 1 SPEN1 1 0 :1:7 
+]
+[s S509 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[u S512 . 1 `S187 1 . 1 0 `S485 1 . 1 0 `S491 1 . 1 0 `S494 1 . 1 0 `S497 1 . 1 0 `S500 1 . 1 0 `S509 1 . 1 0 ]
+[v _RCSTA1bits RCSTA1bits `VES512  1 e 1 @4011 ]
+"12549
+[v _TXSTA1 TXSTA1 `VEuc  1 e 1 @4012 ]
+"12594
+[s S422 . 1 `uc 1 TXD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S426 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 NOT_TX8 1 0 :1:6 
+]
+[s S429 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nTX8 1 0 :1:6 
+]
+[s S432 . 1 `uc 1 TX9D1 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+`uc 1 BRGH1 1 0 :1:2 
+`uc 1 SENDB1 1 0 :1:3 
+`uc 1 SYNC1 1 0 :1:4 
+`uc 1 TXEN1 1 0 :1:5 
+`uc 1 TX91 1 0 :1:6 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[u S441 . 1 `S137 1 . 1 0 `S422 1 . 1 0 `S426 1 . 1 0 `S429 1 . 1 0 `S432 1 . 1 0 ]
+[v _TXSTA1bits TXSTA1bits `VES441  1 e 1 @4012 ]
+"12837
+[v _TXREG1 TXREG1 `VEuc  1 e 1 @4013 ]
+"12875
+[v _RCREG1 RCREG1 `VEuc  1 e 1 @4014 ]
+"12913
+[v _SPBRG1 SPBRG1 `VEuc  1 e 1 @4015 ]
+[s S720 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"16372
+[s S722 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S725 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S728 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S731 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S734 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_CM 1 0 :1:5 
+]
+[s S737 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 nCM 1 0 :1:5 
+`uc 1 SBOREN 1 0 :1:6 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S746 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+`uc 1 CM 1 0 :1:5 
+]
+[u S753 . 1 `S720 1 . 1 0 `S722 1 . 1 0 `S725 1 . 1 0 `S728 1 . 1 0 `S731 1 . 1 0 `S734 1 . 1 0 `S737 1 . 1 0 `S746 1 . 1 0 ]
+[v _RCONbits RCONbits `VES753  1 e 1 @4048 ]
+"16626
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"16703
+[v _SPBRGH1 SPBRGH1 `VEuc  1 e 1 @4052 ]
+[s S641 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"17577
+[s S650 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S659 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S663 . 1 `S641 1 . 1 0 `S650 1 . 1 0 `S659 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES663  1 e 1 @4082 ]
+"99 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\doprnt.c
+[v _prec prec `i  1 s 2 prec ]
+[v _width width `i  1 s 2 width ]
+"100
+[v _flags flags `uc  1 s 1 flags ]
+[s S24 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"52 C:\Users\Sanja\Desktop\Aleksandra Djordjevic DIPLOMSKI\ECG4 Click\ecg4.X\mcc_generated_files/eusart1.c
+[u S29 . 1 `S24 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusart1RxLastError eusart1RxLastError `VES29  1 e 1 0 ]
+"58
+[v _EUSART1_FramingErrorHandler EUSART1_FramingErrorHandler `*.38(v  1 e 3 0 ]
+"59
+[v _EUSART1_OverrunErrorHandler EUSART1_OverrunErrorHandler `*.38(v  1 e 3 0 ]
+"60
+[v _EUSART1_ErrorHandler EUSART1_ErrorHandler `*.38(v  1 e 3 0 ]
+"62 C:\Users\Sanja\Desktop\Aleksandra Djordjevic DIPLOMSKI\ECG4 Click\ecg4.X\mcc_generated_files/eusart2.c
+[v _eusart2TxHead eusart2TxHead `VEuc  1 e 1 0 ]
+"63
+[v _eusart2TxTail eusart2TxTail `VEuc  1 e 1 0 ]
+"64
+[v _eusart2TxBuffer eusart2TxBuffer `VE[8]uc  1 e 8 0 ]
+"65
+[v _eusart2TxBufferRemaining eusart2TxBufferRemaining `VEuc  1 e 1 0 ]
+"67
+[v _eusart2RxHead eusart2RxHead `VEuc  1 e 1 0 ]
+"68
+[v _eusart2RxTail eusart2RxTail `VEuc  1 e 1 0 ]
+"69
+[v _eusart2RxBuffer eusart2RxBuffer `VE[64]uc  1 e 64 0 ]
+"70
+[v _eusart2RxStatusBuffer eusart2RxStatusBuffer `VE[64]S29  1 e 64 0 ]
+"71
+[v _eusart2RxCount eusart2RxCount `VEuc  1 e 1 0 ]
+"72
+[v _eusart2RxLastError eusart2RxLastError `VES29  1 e 1 0 ]
+"77
+[v _EUSART2_TxDefaultInterruptHandler EUSART2_TxDefaultInterruptHandler `*.38(v  1 e 3 0 ]
+"78
+[v _EUSART2_RxDefaultInterruptHandler EUSART2_RxDefaultInterruptHandler `*.38(v  1 e 3 0 ]
+"80
+[v _EUSART2_FramingErrorHandler EUSART2_FramingErrorHandler `*.38(v  1 e 3 0 ]
+"81
+[v _EUSART2_OverrunErrorHandler EUSART2_OverrunErrorHandler `*.38(v  1 e 3 0 ]
+"82
+[v _EUSART2_ErrorHandler EUSART2_ErrorHandler `*.38(v  1 e 3 0 ]
+"50 C:\Users\Sanja\Desktop\Aleksandra Djordjevic DIPLOMSKI\ECG4 Click\ecg4.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"90
+[v main@i i `uc  1 a 1 33 ]
+"55
+[v main@data data `[30]uc  1 a 30 0 ]
+"56
+[v main@checksum checksum `s  1 a 2 34 ]
+"53
+[v main@sync sync `us  1 a 2 30 ]
+"54
+[v main@pLength pLength `uc  1 a 1 32 ]
+"111
+} 0
+"5 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\printf.c
+[v _printf printf `(i  1 e 2 0 ]
+{
+"8
+[v printf@ap ap `[1]*.39v  1 a 2 31 ]
+"5
+[v printf@fmt fmt `*.32Cuc  1 p 2 29 ]
+"13
+} 0
+"1520 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\doprnt.c
+[v _vfprintf vfprintf `(i  1 e 2 0 ]
+{
+"1523
+[v vfprintf@cfmt cfmt `*.32uc  1 a 2 27 ]
+[s S1475 _IO_FILE 0 ]
+"1520
+[v vfprintf@fp fp `*.2S1475  1 p 2 21 ]
+[v vfprintf@fmt fmt `*.32Cuc  1 p 2 23 ]
+[v vfprintf@ap ap `*.39*.39v  1 p 2 25 ]
+"1543
+} 0
+"1007
+[v _vfpfcnvrt vfpfcnvrt `(v  1 s 1 vfpfcnvrt ]
+{
+[s S1475 _IO_FILE 0 ]
+[v vfpfcnvrt@fp fp `*.2S1475  1 p 2 15 ]
+[v vfpfcnvrt@fmt fmt `*.39*.32uc  1 p 2 17 ]
+[v vfpfcnvrt@ap ap `*.39*.39v  1 p 2 19 ]
+"1517
+} 0
+"8 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\nf_fputc.c
+[v _fputc fputc `(i  1 e 2 0 ]
+{
+[v fputc@c c `i  1 p 2 6 ]
+[u S1453 . 3 `*.2uc 1 buffer 3 0 `*.2Cuc 1 source 3 0 ]
+[s S1456 _IO_FILE 11 `S1453 1 . 3 0 `i 1 count 2 3 `[2]uc 1 ungetbuf 2 5 `i 1 ungetcnt 2 7 `i 1 limit 2 9 ]
+[v fputc@fp fp `*.2S1456  1 p 2 8 ]
+"24
+} 0
+"146 C:\Users\Sanja\Desktop\Aleksandra Djordjevic DIPLOMSKI\ECG4 Click\ecg4.X\mcc_generated_files/eusart1.c
+[v _putch putch `(v  1 e 1 0 ]
+{
+[v putch@txData txData `uc  1 a 1 wreg ]
+[v putch@txData txData `uc  1 a 1 wreg ]
+"148
+[v putch@txData txData `uc  1 a 1 5 ]
+"149
+} 0
+"132
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+{
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 4 ]
+"139
+} 0
+"50 C:\Users\Sanja\Desktop\Aleksandra Djordjevic DIPLOMSKI\ECG4 Click\ecg4.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"58
+} 0
+"55 C:\Users\Sanja\Desktop\Aleksandra Djordjevic DIPLOMSKI\ECG4 Click\ecg4.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"99
+} 0
+"60 C:\Users\Sanja\Desktop\Aleksandra Djordjevic DIPLOMSKI\ECG4 Click\ecg4.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"70
+} 0
+"52 C:\Users\Sanja\Desktop\Aleksandra Djordjevic DIPLOMSKI\ECG4 Click\ecg4.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"56
+} 0
+"88 C:\Users\Sanja\Desktop\Aleksandra Djordjevic DIPLOMSKI\ECG4 Click\ecg4.X\mcc_generated_files/eusart2.c
+[v _EUSART2_Initialize EUSART2_Initialize `(v  1 e 1 0 ]
+{
+"130
+} 0
+"276
+[v _EUSART2_SetTxInterruptHandler EUSART2_SetTxInterruptHandler `(v  1 e 1 0 ]
+{
+[v EUSART2_SetTxInterruptHandler@interruptHandler interruptHandler `*.38(v  1 p 3 4 ]
+"278
+} 0
+"280
+[v _EUSART2_SetRxInterruptHandler EUSART2_SetRxInterruptHandler `(v  1 e 1 0 ]
+{
+[v EUSART2_SetRxInterruptHandler@interruptHandler interruptHandler `*.38(v  1 p 3 4 ]
+"282
+} 0
+"268
+[v _EUSART2_SetOverrunErrorHandler EUSART2_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART2_SetOverrunErrorHandler@interruptHandler interruptHandler `*.38(v  1 p 3 4 ]
+"270
+} 0
+"264
+[v _EUSART2_SetFramingErrorHandler EUSART2_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART2_SetFramingErrorHandler@interruptHandler interruptHandler `*.38(v  1 p 3 4 ]
+"266
+} 0
+"272
+[v _EUSART2_SetErrorHandler EUSART2_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART2_SetErrorHandler@interruptHandler interruptHandler `*.38(v  1 p 3 4 ]
+"274
+} 0
+"66 C:\Users\Sanja\Desktop\Aleksandra Djordjevic DIPLOMSKI\ECG4 Click\ecg4.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+{
+"92
+} 0
+"170
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetOverrunErrorHandler@interruptHandler interruptHandler `*.38(v  1 p 3 4 ]
+"172
+} 0
+"166
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetFramingErrorHandler@interruptHandler interruptHandler `*.38(v  1 p 3 4 ]
+"168
+} 0
+"174
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetErrorHandler@interruptHandler interruptHandler `*.38(v  1 p 3 4 ]
+"176
+} 0
+"151 C:\Users\Sanja\Desktop\Aleksandra Djordjevic DIPLOMSKI\ECG4 Click\ecg4.X\mcc_generated_files/eusart2.c
+[v _EUSART2_Read EUSART2_Read `(uc  1 e 1 0 ]
+{
+"153
+[v EUSART2_Read@readValue readValue `uc  1 a 1 4 ]
+"171
+} 0
+"58 C:\Users\Sanja\Desktop\Aleksandra Djordjevic DIPLOMSKI\ECG4 Click\ecg4.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+{
+"80
+} 0
+"197 C:\Users\Sanja\Desktop\Aleksandra Djordjevic DIPLOMSKI\ECG4 Click\ecg4.X\mcc_generated_files/eusart2.c
+[v _EUSART2_Transmit_ISR EUSART2_Transmit_ISR `(v  1 e 1 0 ]
+{
+"214
+} 0
+"216
+[v _EUSART2_Receive_ISR EUSART2_Receive_ISR `(v  1 e 1 0 ]
+{
+"238
+} 0
+"252
+[v _EUSART2_DefaultOverrunErrorHandler EUSART2_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+{
+"258
+} 0
+"250
+[v _EUSART2_DefaultFramingErrorHandler EUSART2_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+{
+} 0
+"260
+[v _EUSART2_DefaultErrorHandler EUSART2_DefaultErrorHandler `(v  1 e 1 0 ]
+{
+"262
+} 0
+"240
+[v _EUSART2_RxDataHandler EUSART2_RxDataHandler `(v  1 e 1 0 ]
+{
+"248
+} 0

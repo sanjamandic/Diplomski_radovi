@@ -1,0 +1,528 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F87K22 ]
+[d frameptr 4065 ]
+"88 C:\Users\Sanja\Desktop\Diplomski_radovi\EMG click\emg.X\mcc_generated_files/adc.c
+[e E6485 . `uc
+channel_CTMU 28
+channel_Temp_diode 29
+channel_Vdd_core 30
+channel_1_024V_bandgap 31
+channel_AN0 0
+]
+"62 C:\Users\Sanja\Desktop\Diplomski_radovi\EMG click\emg.X\main.c
+[e E6806 . `uc
+channel_CTMU 28
+channel_Temp_diode 29
+channel_Vdd_core 30
+channel_1_024V_bandgap 31
+channel_AN0 0
+]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"54 C:\Users\Sanja\Desktop\Diplomski_radovi\EMG click\emg.X\main.c
+[v _main main `(v  1 e 1 0 ]
+"62 C:\Users\Sanja\Desktop\Diplomski_radovi\EMG click\emg.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+"88
+[v _ADC_StartConversion ADC_StartConversion `(v  1 e 1 0 ]
+"113
+[v _ADC_GetConversion ADC_GetConversion `(us  1 e 2 0 ]
+"139
+[v _ADC_ISR ADC_ISR `(v  1 e 1 0 ]
+"150
+[v _ADC_SetInterruptHandler ADC_SetInterruptHandler `(v  1 e 1 0 ]
+"154
+[v _ADC_DefaultInterruptHandler ADC_DefaultInterruptHandler `(v  1 e 1 0 ]
+"66 C:\Users\Sanja\Desktop\Diplomski_radovi\EMG click\emg.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+"113
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+"132
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+"153
+[v _EUSART1_DefaultFramingErrorHandler EUSART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"155
+[v _EUSART1_DefaultOverrunErrorHandler EUSART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"163
+[v _EUSART1_DefaultErrorHandler EUSART1_DefaultErrorHandler `(v  1 e 1 0 ]
+"166
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+"170
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"174
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+"52 C:\Users\Sanja\Desktop\Diplomski_radovi\EMG click\emg.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+"58
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+"50 C:\Users\Sanja\Desktop\Diplomski_radovi\EMG click\emg.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"61
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\Sanja\Desktop\Diplomski_radovi\EMG click\emg.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"67 C:\Users\Sanja\Desktop\Diplomski_radovi\EMG click\emg.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+"136
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+"156
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+"160
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+"1082 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18F-K_DFP/1.5.114/xc8\pic\include\proc\pic18f87k22.h
+[v _ANCON2 ANCON2 `VEuc  1 e 1 @3875 ]
+"1194
+[v _ANCON1 ANCON1 `VEuc  1 e 1 @3876 ]
+"1306
+[v _ANCON0 ANCON0 `VEuc  1 e 1 @3877 ]
+"1613
+[v _REFOCON REFOCON `VEuc  1 e 1 @3882 ]
+"5313
+[v _OSCCON2 OSCCON2 `VEuc  1 e 1 @3940 ]
+"5353
+[v _BAUDCON1 BAUDCON1 `VEuc  1 e 1 @3941 ]
+"9571
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"9683
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"9795
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"9907
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"10019
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"10131
+[v _LATF LATF `VEuc  1 e 1 @3982 ]
+"10233
+[v _LATG LATG `VEuc  1 e 1 @3983 ]
+"10309
+[v _LATH LATH `VEuc  1 e 1 @3984 ]
+"10533
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"10595
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"10657
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"10719
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"10781
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"10843
+[v _TRISF TRISF `VEuc  1 e 1 @3991 ]
+"10900
+[v _TRISG TRISG `VEuc  1 e 1 @3992 ]
+"10944
+[v _TRISH TRISH `VEuc  1 e 1 @3993 ]
+"11068
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
+[s S30 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 TMR1GIE 1 0 :1:2 
+`uc 1 SSP1IE 1 0 :1:3 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 PSPIE 1 0 :1:7 
+]
+"11227
+[s S39 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+]
+[u S44 . 1 `S30 1 . 1 0 `S39 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES44  1 e 1 @3997 ]
+[s S154 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 TMR1GIF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"11310
+[s S163 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+]
+[u S168 . 1 `S154 1 . 1 0 `S163 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES168  1 e 1 @3998 ]
+"12211
+[v _RCSTA1 RCSTA1 `VEuc  1 e 1 @4011 ]
+[s S576 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"12266
+[s S585 . 1 `uc 1 RCD8 1 0 :1:0 
+`uc 1 . 1 0 :2:1 
+`uc 1 ADEN 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S591 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 NOT_RC8 1 0 :1:6 
+]
+[s S594 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nRC8 1 0 :1:6 
+]
+[s S597 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S600 . 1 `uc 1 RX9D1 1 0 :1:0 
+`uc 1 OERR1 1 0 :1:1 
+`uc 1 FERR1 1 0 :1:2 
+`uc 1 ADDEN1 1 0 :1:3 
+`uc 1 CREN1 1 0 :1:4 
+`uc 1 SREN1 1 0 :1:5 
+`uc 1 RX91 1 0 :1:6 
+`uc 1 SPEN1 1 0 :1:7 
+]
+[s S609 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[u S612 . 1 `S576 1 . 1 0 `S585 1 . 1 0 `S591 1 . 1 0 `S594 1 . 1 0 `S597 1 . 1 0 `S600 1 . 1 0 `S609 1 . 1 0 ]
+[v _RCSTA1bits RCSTA1bits `VES612  1 e 1 @4011 ]
+"12549
+[v _TXSTA1 TXSTA1 `VEuc  1 e 1 @4012 ]
+[s S513 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"12594
+[s S522 . 1 `uc 1 TXD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S526 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 NOT_TX8 1 0 :1:6 
+]
+[s S529 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nTX8 1 0 :1:6 
+]
+[s S532 . 1 `uc 1 TX9D1 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+`uc 1 BRGH1 1 0 :1:2 
+`uc 1 SENDB1 1 0 :1:3 
+`uc 1 SYNC1 1 0 :1:4 
+`uc 1 TXEN1 1 0 :1:5 
+`uc 1 TX91 1 0 :1:6 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[u S541 . 1 `S513 1 . 1 0 `S522 1 . 1 0 `S526 1 . 1 0 `S529 1 . 1 0 `S532 1 . 1 0 ]
+[v _TXSTA1bits TXSTA1bits `VES541  1 e 1 @4012 ]
+"12837
+[v _TXREG1 TXREG1 `VEuc  1 e 1 @4013 ]
+"12875
+[v _RCREG1 RCREG1 `VEuc  1 e 1 @4014 ]
+"12913
+[v _SPBRG1 SPBRG1 `VEuc  1 e 1 @4015 ]
+"14181
+[v _ADCON2 ADCON2 `VEuc  1 e 1 @4032 ]
+"14252
+[v _ADCON1 ADCON1 `VEuc  1 e 1 @4033 ]
+"14356
+[v _ADCON0 ADCON0 `VEuc  1 e 1 @4034 ]
+[s S78 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_NOT_DONE 1 0 :1:1 
+]
+"14401
+[s S81 . 1 `uc 1 ADON 1 0 :1:0 
+`uc 1 GO_nDONE 1 0 :1:1 
+`uc 1 CHS 1 0 :5:2 
+]
+[s S85 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 DONE 1 0 :1:1 
+`uc 1 CHS0 1 0 :1:2 
+`uc 1 CHS1 1 0 :1:3 
+`uc 1 CHS2 1 0 :1:4 
+`uc 1 CHS3 1 0 :1:5 
+`uc 1 CHS4 1 0 :1:6 
+]
+[s S93 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO 1 0 :1:1 
+]
+[s S96 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_DONE 1 0 :1:1 
+]
+[s S99 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 nDONE 1 0 :1:1 
+]
+[s S102 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GODONE 1 0 :1:1 
+]
+[s S105 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 GO_DONE 1 0 :1:1 
+]
+[u S108 . 1 `S78 1 . 1 0 `S81 1 . 1 0 `S85 1 . 1 0 `S93 1 . 1 0 `S96 1 . 1 0 `S99 1 . 1 0 `S102 1 . 1 0 `S105 1 . 1 0 ]
+[v _ADCON0bits ADCON0bits `VES108  1 e 1 @4034 ]
+"14488
+[v _ADRESL ADRESL `VEuc  1 e 1 @4035 ]
+"14508
+[v _ADRESH ADRESH `VEuc  1 e 1 @4036 ]
+[s S226 . 1 `uc 1 NOT_BOR 1 0 :1:0 
+]
+"16372
+[s S228 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 NOT_POR 1 0 :1:1 
+]
+[s S231 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_PD 1 0 :1:2 
+]
+[s S234 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 NOT_TO 1 0 :1:3 
+]
+[s S237 . 1 `uc 1 . 1 0 :4:0 
+`uc 1 NOT_RI 1 0 :1:4 
+]
+[s S240 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_CM 1 0 :1:5 
+]
+[s S243 . 1 `uc 1 nBOR 1 0 :1:0 
+`uc 1 nPOR 1 0 :1:1 
+`uc 1 nPD 1 0 :1:2 
+`uc 1 nTO 1 0 :1:3 
+`uc 1 nRI 1 0 :1:4 
+`uc 1 nCM 1 0 :1:5 
+`uc 1 SBOREN 1 0 :1:6 
+`uc 1 IPEN 1 0 :1:7 
+]
+[s S252 . 1 `uc 1 BOR 1 0 :1:0 
+`uc 1 POR 1 0 :1:1 
+`uc 1 PD 1 0 :1:2 
+`uc 1 TO 1 0 :1:3 
+`uc 1 RI 1 0 :1:4 
+`uc 1 CM 1 0 :1:5 
+]
+[u S259 . 1 `S226 1 . 1 0 `S228 1 . 1 0 `S231 1 . 1 0 `S234 1 . 1 0 `S237 1 . 1 0 `S240 1 . 1 0 `S243 1 . 1 0 `S252 1 . 1 0 ]
+[v _RCONbits RCONbits `VES259  1 e 1 @4048 ]
+"16626
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"16703
+[v _SPBRGH1 SPBRGH1 `VEuc  1 e 1 @4052 ]
+"16723
+[v _T0CON T0CON `VEuc  1 e 1 @4053 ]
+[s S763 . 1 `uc 1 T0PS 1 0 :3:0 
+`uc 1 PSA 1 0 :1:3 
+`uc 1 T0SE 1 0 :1:4 
+`uc 1 T0CS 1 0 :1:5 
+`uc 1 T08BIT 1 0 :1:6 
+`uc 1 TMR0ON 1 0 :1:7 
+]
+"16743
+[s S770 . 1 `uc 1 T0PS0 1 0 :1:0 
+`uc 1 T0PS1 1 0 :1:1 
+`uc 1 T0PS2 1 0 :1:2 
+]
+[u S774 . 1 `S763 1 . 1 0 `S770 1 . 1 0 ]
+[v _T0CONbits T0CONbits `VES774  1 e 1 @4053 ]
+"16800
+[v _TMR0L TMR0L `VEuc  1 e 1 @4054 ]
+"16820
+[v _TMR0H TMR0H `VEuc  1 e 1 @4055 ]
+[s S302 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"17577
+[s S311 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S320 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S324 . 1 `S302 1 . 1 0 `S311 1 . 1 0 `S320 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES324  1 e 1 @4082 ]
+"51 C:\Users\Sanja\Desktop\Diplomski_radovi\EMG click\emg.X\main.c
+[v _tmr0_flag tmr0_flag `VEa  1 e 1 0 ]
+"52
+[v _emg_data emg_data `us  1 e 2 0 ]
+"56 C:\Users\Sanja\Desktop\Diplomski_radovi\EMG click\emg.X\mcc_generated_files/adc.c
+[v _ADC_InterruptHandler ADC_InterruptHandler `*.38(v  1 e 3 0 ]
+[s S449 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"52 C:\Users\Sanja\Desktop\Diplomski_radovi\EMG click\emg.X\mcc_generated_files/eusart1.c
+[u S454 . 1 `S449 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusart1RxLastError eusart1RxLastError `VES454  1 e 1 0 ]
+"58
+[v _EUSART1_FramingErrorHandler EUSART1_FramingErrorHandler `*.38(v  1 e 3 0 ]
+"59
+[v _EUSART1_OverrunErrorHandler EUSART1_OverrunErrorHandler `*.38(v  1 e 3 0 ]
+"60
+[v _EUSART1_ErrorHandler EUSART1_ErrorHandler `*.38(v  1 e 3 0 ]
+"58 C:\Users\Sanja\Desktop\Diplomski_radovi\EMG click\emg.X\mcc_generated_files/tmr0.c
+[v _TMR0_InterruptHandler TMR0_InterruptHandler `*.38(v  1 e 3 0 ]
+"60
+[v _timer0ReloadVal timer0ReloadVal `VEus  1 e 2 0 ]
+"54 C:\Users\Sanja\Desktop\Diplomski_radovi\EMG click\emg.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"77
+} 0
+"50 C:\Users\Sanja\Desktop\Diplomski_radovi\EMG click\emg.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"59
+} 0
+"67 C:\Users\Sanja\Desktop\Diplomski_radovi\EMG click\emg.X\mcc_generated_files/tmr0.c
+[v _TMR0_Initialize TMR0_Initialize `(v  1 e 1 0 ]
+{
+"95
+} 0
+"156
+[v _TMR0_SetInterruptHandler TMR0_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v TMR0_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 2 ]
+"158
+} 0
+"55 C:\Users\Sanja\Desktop\Diplomski_radovi\EMG click\emg.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"99
+} 0
+"61 C:\Users\Sanja\Desktop\Diplomski_radovi\EMG click\emg.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"71
+} 0
+"52 C:\Users\Sanja\Desktop\Diplomski_radovi\EMG click\emg.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_Initialize INTERRUPT_Initialize `(v  1 e 1 0 ]
+{
+"56
+} 0
+"66 C:\Users\Sanja\Desktop\Diplomski_radovi\EMG click\emg.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+{
+"92
+} 0
+"170
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetOverrunErrorHandler@interruptHandler interruptHandler `*.38(v  1 p 3 2 ]
+"172
+} 0
+"166
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetFramingErrorHandler@interruptHandler interruptHandler `*.38(v  1 p 3 2 ]
+"168
+} 0
+"174
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetErrorHandler@interruptHandler interruptHandler `*.38(v  1 p 3 2 ]
+"176
+} 0
+"62 C:\Users\Sanja\Desktop\Diplomski_radovi\EMG click\emg.X\mcc_generated_files/adc.c
+[v _ADC_Initialize ADC_Initialize `(v  1 e 1 0 ]
+{
+"86
+} 0
+"150
+[v _ADC_SetInterruptHandler ADC_SetInterruptHandler `(v  1 e 1 0 ]
+{
+[v ADC_SetInterruptHandler@InterruptHandler InterruptHandler `*.38(v  1 p 3 2 ]
+"152
+} 0
+"132 C:\Users\Sanja\Desktop\Diplomski_radovi\EMG click\emg.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+{
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 2 ]
+"139
+} 0
+"88 C:\Users\Sanja\Desktop\Diplomski_radovi\EMG click\emg.X\mcc_generated_files/adc.c
+[v _ADC_StartConversion ADC_StartConversion `(v  1 e 1 0 ]
+{
+[v ADC_StartConversion@channel channel `E6485  1 a 1 wreg ]
+[v ADC_StartConversion@channel channel `E6485  1 a 1 wreg ]
+"91
+[v ADC_StartConversion@channel channel `E6485  1 a 1 3 ]
+"99
+} 0
+"113
+[v _ADC_GetConversion ADC_GetConversion `(us  1 e 2 0 ]
+{
+[v ADC_GetConversion@channel channel `E6485  1 a 1 wreg ]
+[v ADC_GetConversion@channel channel `E6485  1 a 1 wreg ]
+"116
+[v ADC_GetConversion@channel channel `E6485  1 a 1 6 ]
+"132
+} 0
+"58 C:\Users\Sanja\Desktop\Diplomski_radovi\EMG click\emg.X\mcc_generated_files/interrupt_manager.c
+[v _INTERRUPT_InterruptManager INTERRUPT_InterruptManager `IIH(v  1 e 1 0 ]
+{
+"80
+} 0
+"136 C:\Users\Sanja\Desktop\Diplomski_radovi\EMG click\emg.X\mcc_generated_files/tmr0.c
+[v _TMR0_ISR TMR0_ISR `(v  1 e 1 0 ]
+{
+"153
+} 0
+"160
+[v _TMR0_DefaultInterruptHandler TMR0_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"162
+} 0
+"139 C:\Users\Sanja\Desktop\Diplomski_radovi\EMG click\emg.X\mcc_generated_files/adc.c
+[v _ADC_ISR ADC_ISR `(v  1 e 1 0 ]
+{
+"148
+} 0
+"154
+[v _ADC_DefaultInterruptHandler ADC_DefaultInterruptHandler `(v  1 e 1 0 ]
+{
+"157
+} 0

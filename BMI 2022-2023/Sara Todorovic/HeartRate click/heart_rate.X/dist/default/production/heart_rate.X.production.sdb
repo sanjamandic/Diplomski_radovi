@@ -1,0 +1,1097 @@
+[p GLOBOPT AUTOSTATIC IEEE_FLT IEEE_DBL LFSROK EMI_WORD ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 18F87K22 ]
+[d frameptr 4065 ]
+"67 C:\Users\Sanja\Desktop\Diplomski_radovi\BMI 2022-2023\Sara Todorovic\HeartRate click\heart_rate.X\mcc_generated_files/examples/i2c1_master_example.c
+[e E355 . `uc
+I2C1_NOERR 0
+I2C1_BUSY 1
+I2C1_FAIL 2
+]
+"68
+[e E360 . `uc
+I2C1_STOP 1
+I2C1_RESTART_READ 2
+I2C1_RESTART_WRITE 3
+I2C1_CONTINUE 4
+I2C1_RESET_LINK 5
+]
+"146 C:\Users\Sanja\Desktop\Diplomski_radovi\BMI 2022-2023\Sara Todorovic\HeartRate click\heart_rate.X\mcc_generated_files/i2c1_master.c
+[e E6874 . `uc
+I2C1_IDLE 0
+I2C1_SEND_ADR_READ 1
+I2C1_SEND_ADR_WRITE 2
+I2C1_TX 3
+I2C1_RX 4
+I2C1_RCEN 5
+I2C1_TX_EMPTY 6
+I2C1_SEND_RESTART_READ 7
+I2C1_SEND_RESTART_WRITE 8
+I2C1_SEND_RESTART 9
+I2C1_SEND_STOP 10
+I2C1_RX_ACK 11
+I2C1_RX_NACK_STOP 12
+I2C1_RX_NACK_RESTART 13
+I2C1_RESET 14
+I2C1_ADDRESS_NACK 15
+]
+"165
+[e E360 . `uc
+I2C1_STOP 1
+I2C1_RESTART_READ 2
+I2C1_RESTART_WRITE 3
+I2C1_CONTINUE 4
+I2C1_RESET_LINK 5
+]
+[e E355 . `uc
+I2C1_NOERR 0
+I2C1_BUSY 1
+I2C1_FAIL 2
+]
+"191
+[e E6892 . `uc
+I2C1_DATA_COMPLETE 0
+I2C1_WRITE_COLLISION 1
+I2C1_ADDR_NACK 2
+I2C1_DATA_NACK 3
+I2C1_TIMEOUT 4
+I2C1_NULL 5
+]
+"77 C:\Users\Sanja\Desktop\Diplomski_radovi\BMI 2022-2023\Sara Todorovic\HeartRate click\heart_rate.X\main.c
+[e E6908 . `uc
+MAX30100_MODE_HR_ONLY 2
+MAX30100_MODE_SPO2_HR 3
+]
+[e E6912 . `uc
+MAX30100_LED_CURRENT_0mA 0
+MAX30100_LED_CURRENT_4_4mA 1
+MAX30100_LED_CURRENT_7_6mA 2
+MAX30100_LED_CURRENT_11mA 3
+MAX30100_LED_CURRENT_14_2mA 4
+MAX30100_LED_CURRENT_17_4mA 5
+MAX30100_LED_CURRENT_20_8mA 6
+MAX30100_LED_CURRENT_24mA 7
+MAX30100_LED_CURRENT_27_1mA 8
+MAX30100_LED_CURRENT_30_6mA 9
+MAX30100_LED_CURRENT_33_8mA 10
+MAX30100_LED_CURRENT_37mA 11
+MAX30100_LED_CURRENT_40_2mA 12
+MAX30100_LED_CURRENT_43_6mA 13
+MAX30100_LED_CURRENT_46_8mA 14
+MAX30100_LED_CURRENT_50mA 15
+]
+[e E6930 . `uc
+MAX30100_SAMPLING_RATE_50Hz 0
+MAX30100_SAMPLING_RATE_100Hz 1
+MAX30100_SAMPLING_RATE_167Hz 2
+MAX30100_SAMPLING_RATE_200Hz 3
+MAX30100_SAMPLING_RATE_400Hz 4
+MAX30100_SAMPLING_RATE_600Hz 5
+MAX30100_SAMPLING_RATE_800Hz 6
+MAX30100_SAMPLING_RATE_1000Hz 7
+]
+[e E6940 . `uc
+MAX30100_PULSE_WIDTH_200uS_ADC_13 0
+MAX30100_PULSE_WIDTH_400uS_ADC_14 1
+MAX30100_PULSE_WIDTH_800uS_ADC_15 2
+MAX30100_PULSE_WIDTH_1600uS_ADC_16 3
+]
+"21 C:\Users\Sanja\Desktop\Diplomski_radovi\BMI 2022-2023\Sara Todorovic\HeartRate click\heart_rate.X\max30100.c
+[e E6485 . `uc
+MAX30100_MODE_HR_ONLY 2
+MAX30100_MODE_SPO2_HR 3
+]
+[e E6489 . `uc
+MAX30100_LED_CURRENT_0mA 0
+MAX30100_LED_CURRENT_4_4mA 1
+MAX30100_LED_CURRENT_7_6mA 2
+MAX30100_LED_CURRENT_11mA 3
+MAX30100_LED_CURRENT_14_2mA 4
+MAX30100_LED_CURRENT_17_4mA 5
+MAX30100_LED_CURRENT_20_8mA 6
+MAX30100_LED_CURRENT_24mA 7
+MAX30100_LED_CURRENT_27_1mA 8
+MAX30100_LED_CURRENT_30_6mA 9
+MAX30100_LED_CURRENT_33_8mA 10
+MAX30100_LED_CURRENT_37mA 11
+MAX30100_LED_CURRENT_40_2mA 12
+MAX30100_LED_CURRENT_43_6mA 13
+MAX30100_LED_CURRENT_46_8mA 14
+MAX30100_LED_CURRENT_50mA 15
+]
+[e E6507 . `uc
+MAX30100_SAMPLING_RATE_50Hz 0
+MAX30100_SAMPLING_RATE_100Hz 1
+MAX30100_SAMPLING_RATE_167Hz 2
+MAX30100_SAMPLING_RATE_200Hz 3
+MAX30100_SAMPLING_RATE_400Hz 4
+MAX30100_SAMPLING_RATE_600Hz 5
+MAX30100_SAMPLING_RATE_800Hz 6
+MAX30100_SAMPLING_RATE_1000Hz 7
+]
+[e E6517 . `uc
+MAX30100_PULSE_WIDTH_200uS_ADC_13 0
+MAX30100_PULSE_WIDTH_400uS_ADC_14 1
+MAX30100_PULSE_WIDTH_800uS_ADC_15 2
+MAX30100_PULSE_WIDTH_1600uS_ADC_16 3
+]
+"4 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\fleq.c
+[v ___fleq __fleq `(b  1 e 0 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\float.c
+[v ___ftpack __ftpack `(f  1 e 4 0 ]
+"86 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftadd.c
+[v ___ftadd __ftadd `(f  1 e 4 0 ]
+"54 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftdiv.c
+[v ___ftdiv __ftdiv `(f  1 e 4 0 ]
+"62 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftmul.c
+[v ___ftmul __ftmul `(f  1 e 4 0 ]
+"19 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\ftsub.c
+[v ___ftsub __ftsub `(f  1 e 4 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"245
+[v ___flsub __flsub `(d  1 e 4 0 ]
+"11 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcdiv.c
+[v ___fldiv __fldiv `(d  1 e 4 0 ]
+"8 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\sprcmul.c
+[v ___flmul __flmul `(d  1 e 4 0 ]
+"15 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul32.c
+[v ___lmul __lmul `(ul  1 e 4 0 ]
+"91 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\Umul64.c
+[v ___omul __omul `(uo  1 e 8 0 ]
+"10 C:\Program Files\Microchip\xc8\v2.40\pic\sources\c99\common\xxtofl.c
+[v ___xxtofl __xxtofl `(d  1 e 4 0 ]
+"50 C:\Users\Sanja\Desktop\Diplomski_radovi\BMI 2022-2023\Sara Todorovic\HeartRate click\heart_rate.X\main.c
+[v _srednja_vrednost srednja_vrednost `(us  1 e 2 0 ]
+"66
+[v _main main `(v  1 e 1 0 ]
+"21 C:\Users\Sanja\Desktop\Diplomski_radovi\BMI 2022-2023\Sara Todorovic\HeartRate click\heart_rate.X\max30100.c
+[v _MAX30100_init MAX30100_init `(v  1 e 1 0 ]
+"37
+[v _MAX30100_FIFO_init MAX30100_FIFO_init `(v  1 e 1 0 ]
+"43
+[v _MAX30100_read_led_data MAX30100_read_led_data `(v  1 e 1 0 ]
+"66 C:\Users\Sanja\Desktop\Diplomski_radovi\BMI 2022-2023\Sara Todorovic\HeartRate click\heart_rate.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+"113
+[v _EUSART1_Read EUSART1_Read `(uc  1 e 1 0 ]
+"132
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+"153
+[v _EUSART1_DefaultFramingErrorHandler EUSART1_DefaultFramingErrorHandler `(v  1 e 1 0 ]
+"155
+[v _EUSART1_DefaultOverrunErrorHandler EUSART1_DefaultOverrunErrorHandler `(v  1 e 1 0 ]
+"163
+[v _EUSART1_DefaultErrorHandler EUSART1_DefaultErrorHandler `(v  1 e 1 0 ]
+"166
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+"170
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+"174
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+"63 C:\Users\Sanja\Desktop\Diplomski_radovi\BMI 2022-2023\Sara Todorovic\HeartRate click\heart_rate.X\mcc_generated_files/examples/i2c1_master_example.c
+[v _I2C1_Read1ByteRegister I2C1_Read1ByteRegister `(uc  1 e 1 0 ]
+"91
+[v _I2C1_Write1ByteRegister I2C1_Write1ByteRegister `(v  1 e 1 0 ]
+"128
+[v _I2C1_ReadDataBlock I2C1_ReadDataBlock `(v  1 e 1 0 ]
+"142
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
+"149
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
+"156
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E360  1 s 1 wr1RegCompleteHandler ]
+"163
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
+"170
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
+"167 C:\Users\Sanja\Desktop\Diplomski_radovi\BMI 2022-2023\Sara Todorovic\HeartRate click\heart_rate.X\mcc_generated_files/i2c1_master.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+"176
+[v _I2C1_Open I2C1_Open `(E355  1 e 1 0 ]
+"209
+[v _I2C1_Close I2C1_Close `(E355  1 e 1 0 ]
+"224
+[v _I2C1_MasterOperation I2C1_MasterOperation `(E355  1 e 1 0 ]
+"246
+[v _I2C1_MasterRead I2C1_MasterRead `(E355  1 e 1 0 ]
+"251
+[v _I2C1_MasterWrite I2C1_MasterWrite `(E355  1 e 1 0 ]
+"263
+[v _I2C1_SetBuffer I2C1_SetBuffer `(v  1 e 1 0 ]
+"273
+[v _I2C1_SetDataCompleteCallback I2C1_SetDataCompleteCallback `(v  1 e 1 0 ]
+"283
+[v _I2C1_SetAddressNackCallback I2C1_SetAddressNackCallback `(v  1 e 1 0 ]
+"298
+[v _I2C1_SetCallback I2C1_SetCallback `(v  1 s 1 I2C1_SetCallback ]
+"312
+[v _I2C1_Poller I2C1_Poller `(v  1 s 1 I2C1_Poller ]
+"321
+[v _I2C1_MasterFsm I2C1_MasterFsm `T(v  1 s 1 I2C1_MasterFsm ]
+"333
+[v _I2C1_DO_IDLE I2C1_DO_IDLE `(E6874  1 s 1 I2C1_DO_IDLE ]
+"340
+[v _I2C1_DO_SEND_ADR_READ I2C1_DO_SEND_ADR_READ `(E6874  1 s 1 I2C1_DO_SEND_ADR_READ ]
+"347
+[v _I2C1_DO_SEND_ADR_WRITE I2C1_DO_SEND_ADR_WRITE `(E6874  1 s 1 I2C1_DO_SEND_ADR_WRITE ]
+"354
+[v _I2C1_DO_TX I2C1_DO_TX `(E6874  1 s 1 I2C1_DO_TX ]
+"378
+[v _I2C1_DO_RX I2C1_DO_RX `(E6874  1 s 1 I2C1_DO_RX ]
+"402
+[v _I2C1_DO_RCEN I2C1_DO_RCEN `(E6874  1 s 1 I2C1_DO_RCEN ]
+"409
+[v _I2C1_DO_TX_EMPTY I2C1_DO_TX_EMPTY `(E6874  1 s 1 I2C1_DO_TX_EMPTY ]
+"450
+[v _I2C1_DO_SEND_RESTART_READ I2C1_DO_SEND_RESTART_READ `(E6874  1 s 1 I2C1_DO_SEND_RESTART_READ ]
+"456
+[v _I2C1_DO_SEND_RESTART_WRITE I2C1_DO_SEND_RESTART_WRITE `(E6874  1 s 1 I2C1_DO_SEND_RESTART_WRITE ]
+"463
+[v _I2C1_DO_SEND_RESTART I2C1_DO_SEND_RESTART `(E6874  1 s 1 I2C1_DO_SEND_RESTART ]
+"469
+[v _I2C1_DO_SEND_STOP I2C1_DO_SEND_STOP `(E6874  1 s 1 I2C1_DO_SEND_STOP ]
+"475
+[v _I2C1_DO_RX_ACK I2C1_DO_RX_ACK `(E6874  1 s 1 I2C1_DO_RX_ACK ]
+"482
+[v _I2C1_DO_RX_NACK_STOP I2C1_DO_RX_NACK_STOP `(E6874  1 s 1 I2C1_DO_RX_NACK_STOP ]
+"488
+[v _I2C1_DO_RX_NACK_RESTART I2C1_DO_RX_NACK_RESTART `(E6874  1 s 1 I2C1_DO_RX_NACK_RESTART ]
+"494
+[v _I2C1_DO_RESET I2C1_DO_RESET `(E6874  1 s 1 I2C1_DO_RESET ]
+"500
+[v _I2C1_DO_ADDRESS_NACK I2C1_DO_ADDRESS_NACK `(E6874  1 s 1 I2C1_DO_ADDRESS_NACK ]
+"520
+[v _I2C1_CallbackReturnStop I2C1_CallbackReturnStop `(E360  1 e 1 0 ]
+"525
+[v _I2C1_CallbackReturnReset I2C1_CallbackReturnReset `(E360  1 e 1 0 ]
+"543
+[v _I2C1_MasterOpen I2C1_MasterOpen `T(a  1 s 1 I2C1_MasterOpen ]
+"557
+[v _I2C1_MasterClose I2C1_MasterClose `T(v  1 s 1 I2C1_MasterClose ]
+"563
+[v _I2C1_MasterGetRxData I2C1_MasterGetRxData `T(uc  1 s 1 I2C1_MasterGetRxData ]
+"568
+[v _I2C1_MasterSendTxData I2C1_MasterSendTxData `T(v  1 s 1 I2C1_MasterSendTxData ]
+"573
+[v _I2C1_MasterEnableRestart I2C1_MasterEnableRestart `T(v  1 s 1 I2C1_MasterEnableRestart ]
+"578
+[v _I2C1_MasterDisableRestart I2C1_MasterDisableRestart `T(v  1 s 1 I2C1_MasterDisableRestart ]
+"583
+[v _I2C1_MasterStartRx I2C1_MasterStartRx `T(v  1 s 1 I2C1_MasterStartRx ]
+"588
+[v _I2C1_MasterStart I2C1_MasterStart `T(v  1 s 1 I2C1_MasterStart ]
+"593
+[v _I2C1_MasterStop I2C1_MasterStop `T(v  1 s 1 I2C1_MasterStop ]
+"598
+[v _I2C1_MasterIsNack I2C1_MasterIsNack `T(a  1 s 1 I2C1_MasterIsNack ]
+"603
+[v _I2C1_MasterSendAck I2C1_MasterSendAck `T(v  1 s 1 I2C1_MasterSendAck ]
+"609
+[v _I2C1_MasterSendNack I2C1_MasterSendNack `T(v  1 s 1 I2C1_MasterSendNack ]
+"615
+[v _I2C1_MasterClearBusCollision I2C1_MasterClearBusCollision `T(v  1 s 1 I2C1_MasterClearBusCollision ]
+"625
+[v _I2C1_MasterEnableIrq I2C1_MasterEnableIrq `T(v  1 s 1 I2C1_MasterEnableIrq ]
+"635
+[v _I2C1_MasterDisableIrq I2C1_MasterDisableIrq `T(v  1 s 1 I2C1_MasterDisableIrq ]
+"640
+[v _I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 s 1 I2C1_MasterClearIrq ]
+"645
+[v _I2C1_MasterSetIrq I2C1_MasterSetIrq `T(v  1 s 1 I2C1_MasterSetIrq ]
+"650
+[v _I2C1_MasterWaitForEvent I2C1_MasterWaitForEvent `T(v  1 s 1 I2C1_MasterWaitForEvent ]
+"50 C:\Users\Sanja\Desktop\Diplomski_radovi\BMI 2022-2023\Sara Todorovic\HeartRate click\heart_rate.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+"59
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+"55 C:\Users\Sanja\Desktop\Diplomski_radovi\BMI 2022-2023\Sara Todorovic\HeartRate click\heart_rate.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+"1082 C:/Program Files/Microchip/MPLABX/v6.00/packs/Microchip/PIC18F-K_DFP/1.5.114/xc8\pic\include\proc\pic18f87k22.h
+[v _ANCON2 ANCON2 `VEuc  1 e 1 @3875 ]
+"1194
+[v _ANCON1 ANCON1 `VEuc  1 e 1 @3876 ]
+"1306
+[v _ANCON0 ANCON0 `VEuc  1 e 1 @3877 ]
+"1613
+[v _REFOCON REFOCON `VEuc  1 e 1 @3882 ]
+"5313
+[v _OSCCON2 OSCCON2 `VEuc  1 e 1 @3940 ]
+"5353
+[v _BAUDCON1 BAUDCON1 `VEuc  1 e 1 @3941 ]
+"9571
+[v _LATA LATA `VEuc  1 e 1 @3977 ]
+"9683
+[v _LATB LATB `VEuc  1 e 1 @3978 ]
+"9795
+[v _LATC LATC `VEuc  1 e 1 @3979 ]
+"9907
+[v _LATD LATD `VEuc  1 e 1 @3980 ]
+"10019
+[v _LATE LATE `VEuc  1 e 1 @3981 ]
+"10131
+[v _LATF LATF `VEuc  1 e 1 @3982 ]
+"10233
+[v _LATG LATG `VEuc  1 e 1 @3983 ]
+"10309
+[v _LATH LATH `VEuc  1 e 1 @3984 ]
+"10533
+[v _TRISA TRISA `VEuc  1 e 1 @3986 ]
+"10595
+[v _TRISB TRISB `VEuc  1 e 1 @3987 ]
+"10657
+[v _TRISC TRISC `VEuc  1 e 1 @3988 ]
+"10719
+[v _TRISD TRISD `VEuc  1 e 1 @3989 ]
+"10781
+[v _TRISE TRISE `VEuc  1 e 1 @3990 ]
+"10843
+[v _TRISF TRISF `VEuc  1 e 1 @3991 ]
+"10900
+[v _TRISG TRISG `VEuc  1 e 1 @3992 ]
+"10944
+[v _TRISH TRISH `VEuc  1 e 1 @3993 ]
+"11068
+[v _OSCTUNE OSCTUNE `VEuc  1 e 1 @3995 ]
+[s S1008 . 1 `uc 1 TMR1IE 1 0 :1:0 
+`uc 1 TMR2IE 1 0 :1:1 
+`uc 1 TMR1GIE 1 0 :1:2 
+`uc 1 SSP1IE 1 0 :1:3 
+`uc 1 TX1IE 1 0 :1:4 
+`uc 1 RC1IE 1 0 :1:5 
+`uc 1 ADIE 1 0 :1:6 
+`uc 1 PSPIE 1 0 :1:7 
+]
+"11227
+[s S1017 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SSPIE 1 0 :1:3 
+`uc 1 TXIE 1 0 :1:4 
+`uc 1 RCIE 1 0 :1:5 
+]
+[u S1022 . 1 `S1008 1 . 1 0 `S1017 1 . 1 0 ]
+[v _PIE1bits PIE1bits `VES1022  1 e 1 @3997 ]
+[s S201 . 1 `uc 1 TMR1IF 1 0 :1:0 
+`uc 1 TMR2IF 1 0 :1:1 
+`uc 1 TMR1GIF 1 0 :1:2 
+`uc 1 SSP1IF 1 0 :1:3 
+`uc 1 TX1IF 1 0 :1:4 
+`uc 1 RC1IF 1 0 :1:5 
+`uc 1 ADIF 1 0 :1:6 
+`uc 1 PSPIF 1 0 :1:7 
+]
+"11310
+[s S210 . 1 `uc 1 . 1 0 :3:0 
+`uc 1 SSPIF 1 0 :1:3 
+`uc 1 TXIF 1 0 :1:4 
+`uc 1 RCIF 1 0 :1:5 
+]
+[u S215 . 1 `S201 1 . 1 0 `S210 1 . 1 0 ]
+[v _PIR1bits PIR1bits `VES215  1 e 1 @3998 ]
+[s S815 . 1 `uc 1 TMR3GIF 1 0 :1:0 
+`uc 1 TMR3IF 1 0 :1:1 
+`uc 1 HLVDIF 1 0 :1:2 
+`uc 1 BCL1IF 1 0 :1:3 
+`uc 1 BCL2IF 1 0 :1:4 
+`uc 1 SSP2IF 1 0 :1:5 
+`uc 1 . 1 0 :1:6 
+`uc 1 OSCFIF 1 0 :1:7 
+]
+"11547
+[s S824 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 LVDIF 1 0 :1:2 
+`uc 1 BCLIF 1 0 :1:3 
+]
+[u S828 . 1 `S815 1 . 1 0 `S824 1 . 1 0 ]
+[v _PIR2bits PIR2bits `VES828  1 e 1 @4001 ]
+"12211
+[v _RCSTA1 RCSTA1 `VEuc  1 e 1 @4011 ]
+[s S296 . 1 `uc 1 RX9D 1 0 :1:0 
+`uc 1 OERR 1 0 :1:1 
+`uc 1 FERR 1 0 :1:2 
+`uc 1 ADDEN 1 0 :1:3 
+`uc 1 CREN 1 0 :1:4 
+`uc 1 SREN 1 0 :1:5 
+`uc 1 RX9 1 0 :1:6 
+`uc 1 SPEN 1 0 :1:7 
+]
+"12266
+[s S305 . 1 `uc 1 RCD8 1 0 :1:0 
+`uc 1 . 1 0 :2:1 
+`uc 1 ADEN 1 0 :1:3 
+`uc 1 . 1 0 :2:4 
+`uc 1 RC9 1 0 :1:6 
+]
+[s S311 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 NOT_RC8 1 0 :1:6 
+]
+[s S314 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nRC8 1 0 :1:6 
+]
+[s S317 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 RC8_9 1 0 :1:6 
+]
+[s S320 . 1 `uc 1 RX9D1 1 0 :1:0 
+`uc 1 OERR1 1 0 :1:1 
+`uc 1 FERR1 1 0 :1:2 
+`uc 1 ADDEN1 1 0 :1:3 
+`uc 1 CREN1 1 0 :1:4 
+`uc 1 SREN1 1 0 :1:5 
+`uc 1 RX91 1 0 :1:6 
+`uc 1 SPEN1 1 0 :1:7 
+]
+[s S329 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 SRENA 1 0 :1:5 
+]
+[u S332 . 1 `S296 1 . 1 0 `S305 1 . 1 0 `S311 1 . 1 0 `S314 1 . 1 0 `S317 1 . 1 0 `S320 1 . 1 0 `S329 1 . 1 0 ]
+[v _RCSTA1bits RCSTA1bits `VES332  1 e 1 @4011 ]
+"12549
+[v _TXSTA1 TXSTA1 `VEuc  1 e 1 @4012 ]
+[s S233 . 1 `uc 1 TX9D 1 0 :1:0 
+`uc 1 TRMT 1 0 :1:1 
+`uc 1 BRGH 1 0 :1:2 
+`uc 1 SENDB 1 0 :1:3 
+`uc 1 SYNC 1 0 :1:4 
+`uc 1 TXEN 1 0 :1:5 
+`uc 1 TX9 1 0 :1:6 
+`uc 1 CSRC 1 0 :1:7 
+]
+"12594
+[s S242 . 1 `uc 1 TXD8 1 0 :1:0 
+`uc 1 . 1 0 :5:1 
+`uc 1 TX8_9 1 0 :1:6 
+]
+[s S246 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 NOT_TX8 1 0 :1:6 
+]
+[s S249 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 nTX8 1 0 :1:6 
+]
+[s S252 . 1 `uc 1 TX9D1 1 0 :1:0 
+`uc 1 TRMT1 1 0 :1:1 
+`uc 1 BRGH1 1 0 :1:2 
+`uc 1 SENDB1 1 0 :1:3 
+`uc 1 SYNC1 1 0 :1:4 
+`uc 1 TXEN1 1 0 :1:5 
+`uc 1 TX91 1 0 :1:6 
+`uc 1 CSRC1 1 0 :1:7 
+]
+[u S261 . 1 `S233 1 . 1 0 `S242 1 . 1 0 `S246 1 . 1 0 `S249 1 . 1 0 `S252 1 . 1 0 ]
+[v _TXSTA1bits TXSTA1bits `VES261  1 e 1 @4012 ]
+"12837
+[v _TXREG1 TXREG1 `VEuc  1 e 1 @4013 ]
+"12875
+[v _RCREG1 RCREG1 `VEuc  1 e 1 @4014 ]
+"12913
+[v _SPBRG1 SPBRG1 `VEuc  1 e 1 @4015 ]
+"14528
+[v _SSP1CON2 SSP1CON2 `VEuc  1 e 1 @4037 ]
+[s S745 . 1 `uc 1 SEN 1 0 :1:0 
+`uc 1 RSEN 1 0 :1:1 
+`uc 1 PEN 1 0 :1:2 
+`uc 1 RCEN 1 0 :1:3 
+`uc 1 ACKEN 1 0 :1:4 
+`uc 1 ACKDT 1 0 :1:5 
+`uc 1 ACKSTAT 1 0 :1:6 
+`uc 1 GCEN 1 0 :1:7 
+]
+"14576
+[s S754 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 ADMSK1 1 0 :1:1 
+`uc 1 ADMSK2 1 0 :1:2 
+`uc 1 ADMSK3 1 0 :1:3 
+`uc 1 ADMSK4 1 0 :1:4 
+`uc 1 ADMSK5 1 0 :1:5 
+]
+[s S761 . 1 `uc 1 SEN1 1 0 :1:0 
+`uc 1 ADMSK11 1 0 :1:1 
+`uc 1 ADMSK21 1 0 :1:2 
+`uc 1 ADMSK31 1 0 :1:3 
+`uc 1 ACKEN1 1 0 :1:4 
+`uc 1 ACKDT1 1 0 :1:5 
+`uc 1 ACKSTAT1 1 0 :1:6 
+`uc 1 GCEN1 1 0 :1:7 
+]
+[s S770 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 RSEN1 1 0 :1:1 
+`uc 1 PEN1 1 0 :1:2 
+`uc 1 RCEN1 1 0 :1:3 
+`uc 1 ADMSK41 1 0 :1:4 
+`uc 1 ADMSK51 1 0 :1:5 
+]
+[u S777 . 1 `S745 1 . 1 0 `S754 1 . 1 0 `S761 1 . 1 0 `S770 1 . 1 0 ]
+[v _SSP1CON2bits SSP1CON2bits `VES777  1 e 1 @4037 ]
+"14882
+[v _SSP1CON1 SSP1CON1 `VEuc  1 e 1 @4038 ]
+[s S561 . 1 `uc 1 SSPM 1 0 :4:0 
+`uc 1 CKP 1 0 :1:4 
+`uc 1 SSPEN 1 0 :1:5 
+`uc 1 SSPOV 1 0 :1:6 
+`uc 1 WCOL 1 0 :1:7 
+]
+"14917
+[s S567 . 1 `uc 1 SSPM0 1 0 :1:0 
+`uc 1 SSPM1 1 0 :1:1 
+`uc 1 SSPM2 1 0 :1:2 
+`uc 1 SSPM3 1 0 :1:3 
+]
+[s S572 . 1 `uc 1 SSPM01 1 0 :1:0 
+`uc 1 SSPM11 1 0 :1:1 
+`uc 1 SSPM21 1 0 :1:2 
+`uc 1 SSPM31 1 0 :1:3 
+`uc 1 CKP1 1 0 :1:4 
+`uc 1 SSPEN1 1 0 :1:5 
+`uc 1 SSPOV1 1 0 :1:6 
+`uc 1 WCOL1 1 0 :1:7 
+]
+[u S581 . 1 `S561 1 . 1 0 `S567 1 . 1 0 `S572 1 . 1 0 ]
+[v _SSP1CON1bits SSP1CON1bits `VES581  1 e 1 @4038 ]
+"15120
+[v _SSP1STAT SSP1STAT `VEuc  1 e 1 @4039 ]
+[s S845 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_NOT_W 1 0 :1:2 
+]
+"15220
+[s S848 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 D_NOT_A 1 0 :1:5 
+]
+[s S851 . 1 `uc 1 BF 1 0 :1:0 
+`uc 1 UA 1 0 :1:1 
+`uc 1 R_nW 1 0 :1:2 
+`uc 1 S 1 0 :1:3 
+`uc 1 P 1 0 :1:4 
+`uc 1 D_nA 1 0 :1:5 
+`uc 1 CKE 1 0 :1:6 
+`uc 1 SMP 1 0 :1:7 
+]
+[s S860 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D 1 0 :1:5 
+]
+[s S865 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 R_W 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 D_A 1 0 :1:5 
+]
+[s S870 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nW 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nA 1 0 :1:5 
+]
+[s S875 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_WRITE 1 0 :1:2 
+]
+[s S878 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_ADDRESS 1 0 :1:5 
+]
+[s S881 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 nWRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 nADDRESS 1 0 :1:5 
+]
+[s S886 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 READ_WRITE 1 0 :1:2 
+`uc 1 . 1 0 :2:3 
+`uc 1 DATA_ADDRESS 1 0 :1:5 
+]
+[s S891 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 I2C_READ 1 0 :1:2 
+`uc 1 I2C_START 1 0 :1:3 
+`uc 1 I2C_STOP 1 0 :1:4 
+`uc 1 I2C_DAT 1 0 :1:5 
+]
+[s S897 . 1 `uc 1 BF1 1 0 :1:0 
+`uc 1 UA1 1 0 :1:1 
+`uc 1 RW 1 0 :1:2 
+`uc 1 START 1 0 :1:3 
+`uc 1 STOP 1 0 :1:4 
+`uc 1 DA 1 0 :1:5 
+`uc 1 CKE1 1 0 :1:6 
+`uc 1 SMP1 1 0 :1:7 
+]
+[s S906 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 RW1 1 0 :1:2 
+`uc 1 START1 1 0 :1:3 
+`uc 1 STOP1 1 0 :1:4 
+`uc 1 DA1 1 0 :1:5 
+]
+[s S912 . 1 `uc 1 . 1 0 :2:0 
+`uc 1 NOT_W 1 0 :1:2 
+]
+[s S915 . 1 `uc 1 . 1 0 :5:0 
+`uc 1 NOT_A 1 0 :1:5 
+]
+[u S918 . 1 `S845 1 . 1 0 `S848 1 . 1 0 `S851 1 . 1 0 `S860 1 . 1 0 `S865 1 . 1 0 `S870 1 . 1 0 `S875 1 . 1 0 `S878 1 . 1 0 `S881 1 . 1 0 `S886 1 . 1 0 `S891 1 . 1 0 `S897 1 . 1 0 `S906 1 . 1 0 `S912 1 . 1 0 `S915 1 . 1 0 ]
+[v _SSP1STATbits SSP1STATbits `VES918  1 e 1 @4039 ]
+"15718
+[v _SSP1ADD SSP1ADD `VEuc  1 e 1 @4040 ]
+"16026
+[v _SSP1BUF SSP1BUF `VEuc  1 e 1 @4041 ]
+"16626
+[v _OSCCON OSCCON `VEuc  1 e 1 @4051 ]
+"16703
+[v _SPBRGH1 SPBRGH1 `VEuc  1 e 1 @4052 ]
+[s S1266 . 1 `uc 1 RBIF 1 0 :1:0 
+`uc 1 INT0IF 1 0 :1:1 
+`uc 1 TMR0IF 1 0 :1:2 
+`uc 1 RBIE 1 0 :1:3 
+`uc 1 INT0IE 1 0 :1:4 
+`uc 1 TMR0IE 1 0 :1:5 
+`uc 1 PEIE_GIEL 1 0 :1:6 
+`uc 1 GIE_GIEH 1 0 :1:7 
+]
+"17577
+[s S1275 . 1 `uc 1 . 1 0 :1:0 
+`uc 1 INT0F 1 0 :1:1 
+`uc 1 T0IF 1 0 :1:2 
+`uc 1 . 1 0 :1:3 
+`uc 1 INT0E 1 0 :1:4 
+`uc 1 T0IE 1 0 :1:5 
+`uc 1 PEIE 1 0 :1:6 
+`uc 1 GIE 1 0 :1:7 
+]
+[s S1284 . 1 `uc 1 . 1 0 :6:0 
+`uc 1 GIEL 1 0 :1:6 
+`uc 1 GIEH 1 0 :1:7 
+]
+[u S1288 . 1 `S1266 1 . 1 0 `S1275 1 . 1 0 `S1284 1 . 1 0 ]
+[v _INTCONbits INTCONbits `VES1288  1 e 1 @4082 ]
+[s S155 . 1 `uc 1 perr 1 0 :1:0 
+`uc 1 ferr 1 0 :1:1 
+`uc 1 oerr 1 0 :1:2 
+`uc 1 reserved 1 0 :5:3 
+]
+"52 C:\Users\Sanja\Desktop\Diplomski_radovi\BMI 2022-2023\Sara Todorovic\HeartRate click\heart_rate.X\mcc_generated_files/eusart1.c
+[u S160 . 1 `S155 1 . 1 0 `uc 1 status 1 0 ]
+[v _eusart1RxLastError eusart1RxLastError `VES160  1 e 1 0 ]
+"58
+[v _EUSART1_FramingErrorHandler EUSART1_FramingErrorHandler `*.38(v  1 e 3 0 ]
+"59
+[v _EUSART1_OverrunErrorHandler EUSART1_OverrunErrorHandler `*.38(v  1 e 3 0 ]
+"60
+[v _EUSART1_ErrorHandler EUSART1_ErrorHandler `*.38(v  1 e 3 0 ]
+"146 C:\Users\Sanja\Desktop\Diplomski_radovi\BMI 2022-2023\Sara Todorovic\HeartRate click\heart_rate.X\mcc_generated_files/i2c1_master.c
+[v _i2c1_fsmStateTable i2c1_fsmStateTable `C[16]*.38(E6874  1 e 48 0 ]
+[s S535 . 42 `[6]*.38(E360 1 callbackTable 18 0 `[6]*.39v 1 callbackPayload 12 18 `us 1 time_out 2 30 `us 1 time_out_value 2 32 `uc 1 address 1 34 `*.39uc 1 data_ptr 2 35 `ui 1 data_length 2 37 `E6874 1 state 1 39 `E355 1 error 1 40 `uc 1 addressNackCheck 1 41 :1:0 
+`uc 1 busy 1 41 :1:1 
+`uc 1 inUse 1 41 :1:2 
+`uc 1 bufferFree 1 41 :1:3 
+]
+"165
+[v _I2C1_Status I2C1_Status `S535  1 e 42 0 ]
+"66 C:\Users\Sanja\Desktop\Diplomski_radovi\BMI 2022-2023\Sara Todorovic\HeartRate click\heart_rate.X\main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"71
+[v main@ir_niz ir_niz `[64]us  1 a 128 0 ]
+"70
+[v main@red_niz red_niz `[64]us  1 a 128 0 ]
+[s S1341 . 8 `us 1 ir_led 2 0 `us 1 red_led 2 2 `f 1 temperature 4 4 ]
+"69
+[v main@senzor senzor `S1341  1 a 8 37 ]
+"73
+[v main@ir_srednje ir_srednje `us  1 a 2 35 ]
+"68
+[v main@i i `uc  1 a 1 45 ]
+"109
+} 0
+"50
+[v _srednja_vrednost srednja_vrednost `(us  1 e 2 0 ]
+{
+"53
+[v srednja_vrednost@najstariji_indeks najstariji_indeks `uc  1 a 1 11 ]
+"50
+[v srednja_vrednost@niz niz `*.39us  1 p 2 0 ]
+[v srednja_vrednost@indeks indeks `uc  1 p 1 2 ]
+"52
+[v srednja_vrednost@suma suma `ul  1 s 4 suma ]
+"64
+} 0
+"50 C:\Users\Sanja\Desktop\Diplomski_radovi\BMI 2022-2023\Sara Todorovic\HeartRate click\heart_rate.X\mcc_generated_files/mcc.c
+[v _SYSTEM_Initialize SYSTEM_Initialize `(v  1 e 1 0 ]
+{
+"57
+} 0
+"55 C:\Users\Sanja\Desktop\Diplomski_radovi\BMI 2022-2023\Sara Todorovic\HeartRate click\heart_rate.X\mcc_generated_files/pin_manager.c
+[v _PIN_MANAGER_Initialize PIN_MANAGER_Initialize `(v  1 e 1 0 ]
+{
+"99
+} 0
+"59 C:\Users\Sanja\Desktop\Diplomski_radovi\BMI 2022-2023\Sara Todorovic\HeartRate click\heart_rate.X\mcc_generated_files/mcc.c
+[v _OSCILLATOR_Initialize OSCILLATOR_Initialize `(v  1 e 1 0 ]
+{
+"69
+} 0
+"167 C:\Users\Sanja\Desktop\Diplomski_radovi\BMI 2022-2023\Sara Todorovic\HeartRate click\heart_rate.X\mcc_generated_files/i2c1_master.c
+[v _I2C1_Initialize I2C1_Initialize `(v  1 e 1 0 ]
+{
+"174
+} 0
+"66 C:\Users\Sanja\Desktop\Diplomski_radovi\BMI 2022-2023\Sara Todorovic\HeartRate click\heart_rate.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Initialize EUSART1_Initialize `(v  1 e 1 0 ]
+{
+"92
+} 0
+"170
+[v _EUSART1_SetOverrunErrorHandler EUSART1_SetOverrunErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetOverrunErrorHandler@interruptHandler interruptHandler `*.38(v  1 p 3 0 ]
+"172
+} 0
+"166
+[v _EUSART1_SetFramingErrorHandler EUSART1_SetFramingErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetFramingErrorHandler@interruptHandler interruptHandler `*.38(v  1 p 3 0 ]
+"168
+} 0
+"174
+[v _EUSART1_SetErrorHandler EUSART1_SetErrorHandler `(v  1 e 1 0 ]
+{
+[v EUSART1_SetErrorHandler@interruptHandler interruptHandler `*.38(v  1 p 3 0 ]
+"176
+} 0
+"43 C:\Users\Sanja\Desktop\Diplomski_radovi\BMI 2022-2023\Sara Todorovic\HeartRate click\heart_rate.X\max30100.c
+[v _MAX30100_read_led_data MAX30100_read_led_data `(v  1 e 1 0 ]
+{
+[s S1341 . 8 `us 1 ir_led 2 0 `us 1 red_led 2 2 `f 1 temperature 4 4 ]
+[v MAX30100_read_led_data@sens sens `*.39S1341  1 p 2 27 ]
+"44
+[v MAX30100_read_led_data@tmp_reg tmp_reg `[4]uc  1 s 4 tmp_reg ]
+"50
+} 0
+"128 C:\Users\Sanja\Desktop\Diplomski_radovi\BMI 2022-2023\Sara Todorovic\HeartRate click\heart_rate.X\mcc_generated_files/examples/i2c1_master_example.c
+[v _I2C1_ReadDataBlock I2C1_ReadDataBlock `(v  1 e 1 0 ]
+{
+[v I2C1_ReadDataBlock@address address `uc  1 a 1 wreg ]
+[s S96 . 4 `ui 1 len 2 0 `*.39uc 1 data 2 2 ]
+"130
+[v I2C1_ReadDataBlock@bufferBlock bufferBlock `S96  1 a 4 23 ]
+"128
+[v I2C1_ReadDataBlock@address address `uc  1 a 1 wreg ]
+[v I2C1_ReadDataBlock@reg reg `uc  1 p 1 17 ]
+[v I2C1_ReadDataBlock@data data `*.39uc  1 p 2 18 ]
+[v I2C1_ReadDataBlock@len len `ui  1 p 2 20 ]
+"131
+[v I2C1_ReadDataBlock@address address `uc  1 a 1 22 ]
+"140
+} 0
+"21 C:\Users\Sanja\Desktop\Diplomski_radovi\BMI 2022-2023\Sara Todorovic\HeartRate click\heart_rate.X\max30100.c
+[v _MAX30100_init MAX30100_init `(v  1 e 1 0 ]
+{
+[v MAX30100_init@mode mode `E6485  1 a 1 wreg ]
+"23
+[v MAX30100_init@spo2_data spo2_data `uc  1 a 1 26 ]
+"22
+[v MAX30100_init@i_data i_data `uc  1 a 1 25 ]
+"21
+[v MAX30100_init@mode mode `E6485  1 a 1 wreg ]
+[v MAX30100_init@red_led_current red_led_current `E6489  1 p 1 20 ]
+[v MAX30100_init@ir_led_current ir_led_current `E6489  1 p 1 21 ]
+[v MAX30100_init@sample_rate sample_rate `E6507  1 p 1 22 ]
+[v MAX30100_init@pulse_width pulse_width `E6517  1 p 1 23 ]
+"26
+[v MAX30100_init@mode mode `E6485  1 a 1 24 ]
+"35
+} 0
+"37
+[v _MAX30100_FIFO_init MAX30100_FIFO_init `(v  1 e 1 0 ]
+{
+"41
+} 0
+"91 C:\Users\Sanja\Desktop\Diplomski_radovi\BMI 2022-2023\Sara Todorovic\HeartRate click\heart_rate.X\mcc_generated_files/examples/i2c1_master_example.c
+[v _I2C1_Write1ByteRegister I2C1_Write1ByteRegister `(v  1 e 1 0 ]
+{
+[v I2C1_Write1ByteRegister@address address `uc  1 a 1 wreg ]
+[v I2C1_Write1ByteRegister@address address `uc  1 a 1 wreg ]
+[v I2C1_Write1ByteRegister@reg reg `uc  1 p 1 17 ]
+[v I2C1_Write1ByteRegister@data data `uc  1 p 1 18 ]
+[v I2C1_Write1ByteRegister@address address `uc  1 a 1 19 ]
+"99
+} 0
+"283 C:\Users\Sanja\Desktop\Diplomski_radovi\BMI 2022-2023\Sara Todorovic\HeartRate click\heart_rate.X\mcc_generated_files/i2c1_master.c
+[v _I2C1_SetAddressNackCallback I2C1_SetAddressNackCallback `(v  1 e 1 0 ]
+{
+[v I2C1_SetAddressNackCallback@cb cb `*.38(E360  1 p 3 6 ]
+[v I2C1_SetAddressNackCallback@ptr ptr `*.2v  1 p 2 9 ]
+"286
+} 0
+"176
+[v _I2C1_Open I2C1_Open `(E355  1 e 1 0 ]
+{
+[v I2C1_Open@address address `uc  1 a 1 wreg ]
+"178
+[v I2C1_Open@returnValue returnValue `E355  1 a 1 1 ]
+"176
+[v I2C1_Open@address address `uc  1 a 1 wreg ]
+"178
+[v I2C1_Open@address address `uc  1 a 1 0 ]
+"207
+} 0
+"543
+[v _I2C1_MasterOpen I2C1_MasterOpen `T(a  1 s 1 I2C1_MasterOpen ]
+{
+"555
+} 0
+"251
+[v _I2C1_MasterWrite I2C1_MasterWrite `(E355  1 e 1 0 ]
+{
+"254
+} 0
+"224
+[v _I2C1_MasterOperation I2C1_MasterOperation `(E355  1 e 1 0 ]
+{
+[v I2C1_MasterOperation@read read `a  1 a 1 wreg ]
+"226
+[v I2C1_MasterOperation@returnValue returnValue `E355  1 a 1 16 ]
+"224
+[v I2C1_MasterOperation@read read `a  1 a 1 wreg ]
+"226
+[v I2C1_MasterOperation@read read `a  1 a 1 15 ]
+"244
+} 0
+"312
+[v _I2C1_Poller I2C1_Poller `(v  1 s 1 I2C1_Poller ]
+{
+"319
+} 0
+"650
+[v _I2C1_MasterWaitForEvent I2C1_MasterWaitForEvent `T(v  1 s 1 I2C1_MasterWaitForEvent ]
+{
+"659
+} 0
+"321
+[v _I2C1_MasterFsm I2C1_MasterFsm `T(v  1 s 1 I2C1_MasterFsm ]
+{
+"330
+} 0
+"500
+[v _I2C1_DO_ADDRESS_NACK I2C1_DO_ADDRESS_NACK `(E6874  1 s 1 I2C1_DO_ADDRESS_NACK ]
+{
+"512
+} 0
+"494
+[v _I2C1_DO_RESET I2C1_DO_RESET `(E6874  1 s 1 I2C1_DO_RESET ]
+{
+"499
+} 0
+"488
+[v _I2C1_DO_RX_NACK_RESTART I2C1_DO_RX_NACK_RESTART `(E6874  1 s 1 I2C1_DO_RX_NACK_RESTART ]
+{
+"492
+} 0
+"482
+[v _I2C1_DO_RX_NACK_STOP I2C1_DO_RX_NACK_STOP `(E6874  1 s 1 I2C1_DO_RX_NACK_STOP ]
+{
+"486
+} 0
+"475
+[v _I2C1_DO_RX_ACK I2C1_DO_RX_ACK `(E6874  1 s 1 I2C1_DO_RX_ACK ]
+{
+"479
+} 0
+"469
+[v _I2C1_DO_SEND_STOP I2C1_DO_SEND_STOP `(E6874  1 s 1 I2C1_DO_SEND_STOP ]
+{
+"473
+} 0
+"463
+[v _I2C1_DO_SEND_RESTART I2C1_DO_SEND_RESTART `(E6874  1 s 1 I2C1_DO_SEND_RESTART ]
+{
+"467
+} 0
+"456
+[v _I2C1_DO_SEND_RESTART_WRITE I2C1_DO_SEND_RESTART_WRITE `(E6874  1 s 1 I2C1_DO_SEND_RESTART_WRITE ]
+{
+"460
+} 0
+"450
+[v _I2C1_DO_SEND_RESTART_READ I2C1_DO_SEND_RESTART_READ `(E6874  1 s 1 I2C1_DO_SEND_RESTART_READ ]
+{
+"454
+} 0
+"402
+[v _I2C1_DO_RCEN I2C1_DO_RCEN `(E6874  1 s 1 I2C1_DO_RCEN ]
+{
+"407
+} 0
+"378
+[v _I2C1_DO_RX I2C1_DO_RX `(E6874  1 s 1 I2C1_DO_RX ]
+{
+"400
+} 0
+"354
+[v _I2C1_DO_TX I2C1_DO_TX `(E6874  1 s 1 I2C1_DO_TX ]
+{
+"376
+} 0
+"347
+[v _I2C1_DO_SEND_ADR_WRITE I2C1_DO_SEND_ADR_WRITE `(E6874  1 s 1 I2C1_DO_SEND_ADR_WRITE ]
+{
+"352
+} 0
+"340
+[v _I2C1_DO_SEND_ADR_READ I2C1_DO_SEND_ADR_READ `(E6874  1 s 1 I2C1_DO_SEND_ADR_READ ]
+{
+"345
+} 0
+"333
+[v _I2C1_DO_IDLE I2C1_DO_IDLE `(E6874  1 s 1 I2C1_DO_IDLE ]
+{
+"338
+} 0
+"409
+[v _I2C1_DO_TX_EMPTY I2C1_DO_TX_EMPTY `(E6874  1 s 1 I2C1_DO_TX_EMPTY ]
+{
+"424
+} 0
+"645
+[v _I2C1_MasterSetIrq I2C1_MasterSetIrq `T(v  1 s 1 I2C1_MasterSetIrq ]
+{
+"648
+} 0
+"598
+[v _I2C1_MasterIsNack I2C1_MasterIsNack `T(a  1 s 1 I2C1_MasterIsNack ]
+{
+"601
+} 0
+"568
+[v _I2C1_MasterSendTxData I2C1_MasterSendTxData `T(v  1 s 1 I2C1_MasterSendTxData ]
+{
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 wreg ]
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 wreg ]
+"570
+[v I2C1_MasterSendTxData@data data `uc  1 a 1 0 ]
+"571
+} 0
+"603
+[v _I2C1_MasterSendAck I2C1_MasterSendAck `T(v  1 s 1 I2C1_MasterSendAck ]
+{
+"607
+} 0
+"563
+[v _I2C1_MasterGetRxData I2C1_MasterGetRxData `T(uc  1 s 1 I2C1_MasterGetRxData ]
+{
+"566
+} 0
+"609
+[v _I2C1_MasterSendNack I2C1_MasterSendNack `T(v  1 s 1 I2C1_MasterSendNack ]
+{
+"613
+} 0
+"583
+[v _I2C1_MasterStartRx I2C1_MasterStartRx `T(v  1 s 1 I2C1_MasterStartRx ]
+{
+"586
+} 0
+"525
+[v _I2C1_CallbackReturnReset I2C1_CallbackReturnReset `(E360  1 e 1 0 ]
+{
+[v I2C1_CallbackReturnReset@funPtr funPtr `*.39v  1 p 2 11 ]
+"528
+} 0
+"520
+[v _I2C1_CallbackReturnStop I2C1_CallbackReturnStop `(E360  1 e 1 0 ]
+{
+"523
+} 0
+"170 C:\Users\Sanja\Desktop\Diplomski_radovi\BMI 2022-2023\Sara Todorovic\HeartRate click\heart_rate.X\mcc_generated_files/examples/i2c1_master_example.c
+[v _rdBlkRegCompleteHandler rdBlkRegCompleteHandler `(E360  1 s 1 rdBlkRegCompleteHandler ]
+{
+[v rdBlkRegCompleteHandler@ptr ptr `*.39v  1 p 2 11 ]
+"175
+} 0
+"156
+[v _wr1RegCompleteHandler wr1RegCompleteHandler `(E360  1 s 1 wr1RegCompleteHandler ]
+{
+[v wr1RegCompleteHandler@ptr ptr `*.39v  1 p 2 11 ]
+"161
+} 0
+"149
+[v _rd2RegCompleteHandler rd2RegCompleteHandler `(E360  1 s 1 rd2RegCompleteHandler ]
+{
+[v rd2RegCompleteHandler@ptr ptr `*.39v  1 p 2 11 ]
+"154
+} 0
+"142
+[v _rd1RegCompleteHandler rd1RegCompleteHandler `(E360  1 s 1 rd1RegCompleteHandler ]
+{
+[v rd1RegCompleteHandler@ptr ptr `*.39v  1 p 2 11 ]
+"147
+} 0
+"163
+[v _wr2RegCompleteHandler wr2RegCompleteHandler `(E360  1 s 1 wr2RegCompleteHandler ]
+{
+[v wr2RegCompleteHandler@ptr ptr `*.39v  1 p 2 11 ]
+"168
+} 0
+"273 C:\Users\Sanja\Desktop\Diplomski_radovi\BMI 2022-2023\Sara Todorovic\HeartRate click\heart_rate.X\mcc_generated_files/i2c1_master.c
+[v _I2C1_SetDataCompleteCallback I2C1_SetDataCompleteCallback `(v  1 e 1 0 ]
+{
+[v I2C1_SetDataCompleteCallback@cb cb `*.38(E360  1 p 3 6 ]
+[v I2C1_SetDataCompleteCallback@ptr ptr `*.39v  1 p 2 9 ]
+"276
+} 0
+"298
+[v _I2C1_SetCallback I2C1_SetCallback `(v  1 s 1 I2C1_SetCallback ]
+{
+[v I2C1_SetCallback@idx idx `E6892  1 a 1 wreg ]
+[v I2C1_SetCallback@idx idx `E6892  1 a 1 wreg ]
+[v I2C1_SetCallback@cb cb `*.38(E360  1 p 3 0 ]
+[v I2C1_SetCallback@ptr ptr `*.39v  1 p 2 3 ]
+"300
+[v I2C1_SetCallback@idx idx `E6892  1 a 1 5 ]
+"310
+} 0
+"263
+[v _I2C1_SetBuffer I2C1_SetBuffer `(v  1 e 1 0 ]
+{
+[v I2C1_SetBuffer@buffer buffer `*.39v  1 p 2 0 ]
+[v I2C1_SetBuffer@bufferSize bufferSize `ui  1 p 2 2 ]
+"271
+} 0
+"593
+[v _I2C1_MasterStop I2C1_MasterStop `T(v  1 s 1 I2C1_MasterStop ]
+{
+"596
+} 0
+"573
+[v _I2C1_MasterEnableRestart I2C1_MasterEnableRestart `T(v  1 s 1 I2C1_MasterEnableRestart ]
+{
+"576
+} 0
+"588
+[v _I2C1_MasterStart I2C1_MasterStart `T(v  1 s 1 I2C1_MasterStart ]
+{
+"591
+} 0
+"209
+[v _I2C1_Close I2C1_Close `(E355  1 e 1 0 ]
+{
+"211
+[v I2C1_Close@returnValue returnValue `E355  1 a 1 0 ]
+"222
+} 0
+"635
+[v _I2C1_MasterDisableIrq I2C1_MasterDisableIrq `T(v  1 s 1 I2C1_MasterDisableIrq ]
+{
+"638
+} 0
+"557
+[v _I2C1_MasterClose I2C1_MasterClose `T(v  1 s 1 I2C1_MasterClose ]
+{
+"561
+} 0
+"640
+[v _I2C1_MasterClearIrq I2C1_MasterClearIrq `T(v  1 s 1 I2C1_MasterClearIrq ]
+{
+"643
+} 0
+"132 C:\Users\Sanja\Desktop\Diplomski_radovi\BMI 2022-2023\Sara Todorovic\HeartRate click\heart_rate.X\mcc_generated_files/eusart1.c
+[v _EUSART1_Write EUSART1_Write `(v  1 e 1 0 ]
+{
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 wreg ]
+[v EUSART1_Write@txData txData `uc  1 a 1 0 ]
+"139
+} 0
